@@ -1,0 +1,168 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+    background-color:#96858F;
+}
+main {
+    padding:10px;
+}
+
+th, td {
+    padding: 5px;
+}
+header {
+    background-color: #ded2da;
+    padding: 5px;
+    border-bottom: 5px solid #a0969c;
+    align-content: center;
+}
+footer {
+    background-color: #ded2da;
+    padding: 5px;
+    border-top: 5px solid #a0969c;
+    text-align: center;
+
+    align-content: center;
+
+}
+.error {
+    color: #ff0000;
+}
+.success {
+    color: #00b600;
+}
+.right{
+    float: right;
+}
+
+/* HANDLING LISTS & NAVIGATION */
+ul {
+    list-style-type: circle;
+}
+
+li {
+    display: block;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    padding: 5px;
+}
+
+nav a:link {
+    color: #E6FFE1;
+    background-color: #9099a2;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #E6FFE1;
+    background-color: #9099a2;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000000;
+    background-color: #96858F;
+}
+nav a:active {
+    color: #96858F;
+    background-color: #000000;
+}
+
+
+h1, h2 {background-color: #ded2da;
+    text-align: center;
+    color: #1f2123;
+}
+h3 {
+    text-align: center;
+    color: #1f2123;
+}
+
+hr {color: #DEA82A;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}/*centering images*/
+.dish {border-style: dashed;
+    border-color: teal;
+    border-width: 2px;
+    Background-color: #ded2da;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+.dishText{color: black;
+}
+
+div {text-align: center;
+}
+.headerChange{font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: #474644
+}
+
+#statement {text-align: center;
+    color: black;
+}
+#nav {
+    background-color: #474644;
+}
+
+nav a{
+    color: white;
+
+}
+a:link{
+    text-decoration: underline;
+    color: green;
+}
+a:visited {
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+.arrow {
+    list-style-image: url('../images/arrowBullet.png');
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.underConstruction{ color: orange;
+    font-style: italic;
+}
+
+table{
+    border: solid 1pt black;
+    border-collapse: collapse;
+    alignment: center;
+
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+td, th{
+    border: solid 1pt black;
+}
+tbody tr:nth-child(odd){
+    background-color: gray;
+}
