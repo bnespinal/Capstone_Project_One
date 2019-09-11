@@ -31,9 +31,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     /* ***********************************************************************
      * CHECK EMPTY FIELDS
      * Check for empty data for every required field
-     * Do not do for things like apartment number, middle initial, etc.
-     * CAUTION:  Radio buttons with 0 as a value = use isset() not empty()
-     *    see https://www.htmlcenter.com/blog/empty-and-isset-in-php/
      * ***********************************************************************
      */
 
@@ -43,7 +40,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     /* ***********************************************************************
      * CHECK MATCHING FIELDS
      * Check to see if important fields match
-     * Usually used for passwords and sometimes emails.  We'll do passwords.
      * ***********************************************************************
      */
 
