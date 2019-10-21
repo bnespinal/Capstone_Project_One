@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: jennis
- * Date: 11/29/2017
- * Time: 10:40 PM
+ * User: bnespinal
+ * Date: 9/6/2019
+ * Time: 4:15 PM
  */
 session_start();
 session_unset();
